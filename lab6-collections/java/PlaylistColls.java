@@ -74,7 +74,6 @@ public class PlaylistColls {
         for (Item item : playlist1) {
             lengths1.add(item.length_secs);
         }
-
         System.out.printf("lengths1 = %s\n", lengths1);
 
         // an equivalent of the above, using Java 8 streams:
